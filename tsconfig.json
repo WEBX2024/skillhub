@@ -2,5 +2,48 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./frontend"
+    },
+    {
+      "path": "./api-gateway"
+    },
+    {
+      "path": "./auth-service-e2e"
+    },
+    {
+      "path": "./auth-service"
+    },
+    {
+      "path": "./course-service-e2e"
+    },
+    {
+      "path": "./course-service"
+    },
+    {
+      "path": "./gig-service-e2e"
+    },
+    {
+      "path": "./gig-service"
+    },
+    {
+      "path": "./order-service-e2e"
+    },
+    {
+      "path": "./order-service"
+    },
+    {
+      "path": "./notification-service-e2e"
+    },
+    {
+      "path": "./notification-service"
+    },
+    {
+      "path": "./shared-auth"
+    },
+    {
+      "path": "./shared-utils"
+    }
+  ]
 }
